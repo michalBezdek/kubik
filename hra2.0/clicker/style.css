@@ -1,0 +1,77 @@
+.fade-in{
+    animation: fade 6s;
+    font-family: fantasy;
+   text-align: center;
+   color: crimson;
+}
+@keyframes fade{
+from{
+    opacity: 0;
+}
+to{
+    opacity: 1;
+
+}
+
+}
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(to bottom, #1e3c72, #2a5298); 
+}
+
+.container {
+    text-align: center;
+    background: rgba(255, 255, 255, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.clicker {
+    margin-bottom: 20px;
+}
+
+#click-image {
+    width: 200px;
+    height: 250px; 
+    cursor: pointer;
+}
+
+.shop {
+    margin-top: 20px;
+}
+
+#shop-image {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.shop-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: grey;
+    cursor: not-allowed;
+}
