@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="/clicker/logo.png">
+    <title>kubik Hra</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fade-in" id="logo" style="display:block ;" >
+        <img src="/logo.png" alt="" width="350" height="350" class="obrazek" />
+        <h1 class="text">kubik clicker</h1>
+        </div>
+        <div class="container" id="hra" style="display: none;">
+            <h1>Clicker Hra</h1>
+            <div class="clicker">
+                <img id="click-image" src="/kubik.png" alt="Klikni na mě">
+                <p>Počet kubíků: <span id="score">0</span></p>
+            </div>
+            <div class="shop">
+                <img id="shop-image" src="/store.png" alt="Obchod">
+            </div>
+            <div class="shop-modal" id="shop-modal" style="display: none;">
+                <h2>Obchod</h2>
+                <button id="upgrade1">adamův zlatý dotyk (10 kubíků)</button>
+                <button id="upgrade2">michalovo šachové skills (50 kubíků)</button>
+                <button id="upgrade3">honzův 130kg deadlift (100 kubíků)</button>
+                <button id="upgrade4">petrův jojo reference (200 kubíků)</button>
+                <button id="upgrade5">adamovo rychlé prsty (500 kubíků)</button>
+                <button id="upgrade6">kristián (5000 kubíků)</button>
+                <button id="close-shop">Zavřít</button>
+            </div>
+        </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
